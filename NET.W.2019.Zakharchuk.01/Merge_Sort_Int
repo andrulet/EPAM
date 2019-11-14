@@ -1,0 +1,84 @@
+using System;
+
+namespace Merge_Sort_Int
+{
+    public class Merge_Sort
+    {
+        /// <summary>
+        /// This method merges arrays 
+        /// </summary>
+        /// <param name="array">The current array to sort</param>
+        /// <param name="low_index">low index of the part of the array to be sorted</param>
+        /// <param name="high_index">high index of the part of the array to be sorted</param>
+        /// <param name="middle_index">middle index of array</param>
+        public static void Merge(int[] array, int low_index, int middle_index, int high_index)
+        {
+            int left_part = low_index;
+            int right_part = middle_index + 1;
+            int[] temp_array = new int[high_index - low_index + 1];
+            int index = 0;
+
+            while ((left_part <= middle_index) && (right_part <= high_index))
+            {
+                if (array[left_part] < array[right_part])
+                {
+                    temp_array[index] = array[left_part];
+                    left_part++;
+                }
+                else
+                {
+                    temp_array[index] = array[right_part];
+                    right_part++;
+                }
+
+                index++;
+            }
+
+            for (int i = left_part; i <= middle_index; i++)
+            {
+                temp_array[index] = array[i];
+                index++;
+            }
+
+            for (int i = right_part; i <= high_index; i++)
+            {
+                temp_array[index] = array[i];
+                index++;
+            }
+
+            for (int i = 0; i < temp_array.Length; i++)
+            {
+                array[low_index + i] = temp_array[i];
+            }
+        }
+        
+        /// <summary>
+        /// This method sort arrays by merging
+        /// </summary>
+        /// <param name="array">The array to sort</param>
+        /// <param name="first_index">first index of array</param>
+        /// <param name="last_index">last index of array</param>
+        /// <returns>sorted current array</returns>
+        public static int[] MergeSort(int[] array, int first_index, int last_index)
+        {
+            if (first_index < last_index)
+            {
+                int middle_index = (first_index + last_index) / 2;
+                MergeSort(array, first_index, middle_index);
+                MergeSort(array, middle_index + 1, last_index);
+                Merge(array, first_index, middle_index, last_index);
+            }
+            return array;
+        }
+
+        /// <summary>
+        /// This method sort arrays
+        /// </summary>
+        /// <param name="array">The array to sort</param>        
+        /// <returns>sorted array</returns>
+        public static int[] MergeSort(int[] array)
+        {
+            return MergeSort(array, 0, array.Length - 1);
+        }
+    }
+}
