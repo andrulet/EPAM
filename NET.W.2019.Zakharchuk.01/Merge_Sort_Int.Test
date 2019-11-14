@@ -1,0 +1,17 @@
+using NUnit.Framework;
+
+namespace Merge_Sort_Int.Test
+{    
+    public class Test
+    {
+        [Test]
+        public void TestMethod()
+        {
+            Assert.AreEqual(new[] { 1 }, Merge_Sort.MergeSort(new[] { 1 }));
+            Assert.AreEqual(new[] { 1, 2, 3, 4, 5, 6, 7, 8, 9 }, Merge_Sort.MergeSort(new[] { 1, 2, 3, 4, 5, 6, 7, 8, 9 }));
+            Assert.AreEqual(new[] { -100, -5, 0, 2, 2, 5, 23, 32, 32, 43, 55, 70, 99, 100, 1000 },
+                Merge_Sort.MergeSort(new[] { 2, 5, 2, 100, -5, 99, 43, 23, -100, 1000, 32, 55, 32, 0, 70 }));
+
+        }
+    }
+}
