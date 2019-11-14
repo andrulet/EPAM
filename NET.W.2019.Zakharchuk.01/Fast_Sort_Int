@@ -1,0 +1,70 @@
+using System;
+
+namespace Fast_Sort_Int
+{
+    public class Fast_Sort
+    {
+        /// <summary>
+        /// This method returns the actual pivot index of the element of array 
+        /// </summary>
+        /// <param name="array">The current array to sort</param>
+        /// <param name="min_index">min current array index</param>
+        /// <param name="max_index">max current array index</param>
+        /// <returns>actual pivot index of the element of array</returns>
+        public static int Partition(int[] array, int min_index, int max_index)
+        {
+            int pivot_index_of_array = min_index - 1;
+            for (int i = min_index; i < max_index; i++)
+            {
+                if (array[i] < array[max_index])
+                {
+                    pivot_index_of_array++;
+                    Swap(ref array[pivot_index_of_array], ref array[i]);
+                }
+            }
+
+            pivot_index_of_array++;
+            Swap(ref array[pivot_index_of_array], ref array[max_index]);
+            return pivot_index_of_array;
+        }
+        /// <summary>
+        /// This method for exchanging 2 elements of an array
+        /// </summary>
+        /// <param name="a">first element of an array</param>
+        /// <param name="b">second element of an array</param>        
+        public static void Swap(ref int a, ref int b)
+        {
+            int swap = a;
+            a = b;
+            b = swap;
+        }
+        /// <summary>
+        /// This method sorts the current array
+        /// </summary>
+        /// <param name="min_index">min index of array</param>
+        /// <param name="max_index">max index of array</param>
+        /// <returns>actual sorted array</returns>
+        public static int[] QuickSort(int[] array, int min_index, int max_index)
+        {
+            if (min_index >= max_index)
+            {
+                return array;
+            }
+
+            int pivotIndex = Partition(array, min_index, max_index);
+            QuickSort(array, min_index, pivotIndex - 1);
+            QuickSort(array, pivotIndex + 1, max_index);
+
+            return array;
+        }
+        /// <summary>
+        /// This method sort array
+        /// </summary>
+        /// <param name="array">array to sort</param>        
+        /// <returns>sorted array</returns>
+        public static int[] QuickSort(int[] array)
+        {           
+            return QuickSort(array, 0, array.Length - 1);
+        }
+    }
+}
