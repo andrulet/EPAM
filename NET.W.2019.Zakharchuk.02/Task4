@@ -1,0 +1,36 @@
+using System;
+using System.Collections.Generic;
+
+namespace Task4
+{
+    public class Task_4
+    {
+        /// <summary>
+        /// This method filters a list, so that only numbers containing a given digit remain on the output
+        /// </summary>
+        /// <param name="listNumber">List of the numbers</param>        
+        /// <returns>filtered list of numbers</returns>
+        static List<int> FilterDigit(List<int> listNumber)
+        {
+            List<int> finishlistNumber = new List<int>();
+            int checkDigit = listNumber[0], tempNumber, remainder;
+            for (int i = 1; i < listNumber.Count; i++)
+            {
+                tempNumber = listNumber[i];
+                do
+                {
+                    remainder = listNumber[i] % 10;
+                    listNumber[i] /= 10;
+                    if (remainder == checkDigit || listNumber[i] == checkDigit)
+                    {
+                        finishlistNumber.Add(tempNumber);
+                        break;
+                    }
+                }
+                while (listNumber[i] > 9);
+            }
+
+            return finishlistNumber;
+        }
+    }
+}
