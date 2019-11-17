@@ -1,0 +1,39 @@
+using System;
+
+namespace Task5
+{
+    public class Task_5
+    {
+        /// <summary>
+        /// This method returns rounding precision
+        /// </summary>
+        /// <param name="eps">accuracy with which the method should converge</param>        
+        /// <returns>the number, whitch shows rounding precision</returns>
+        static int CountOfMark(double eps)
+        {
+            if (eps <= 0.0001) return 3;
+            if (eps < 0.1 && eps > 0.0001) return 2;
+            return 1;
+        }
+        /// <summary>
+        /// This method calculates the root of the n-th degree (n∈N) from the number (a∈R) using the Newton method with a given accuracy
+        /// </summary>
+        /// <param name="A">, which is necessary to calculate the arethmetic root of degree n</param>
+        /// <param name="n">degree of the arethmetic root </param>
+        /// <param name="eps">accuracy with which the method should converge</param>
+        /// <returns>arethmetic root of number of degree n </returns>
+        static double SqrtN(double A, double n, double eps)
+        {
+            double x0 = A / n;
+            double x1 = (1 / n) * ((n - 1) * x0 + A / Math.Pow(x0, (int)n - 1));
+
+            while (Math.Abs(x1 - x0) > eps)
+            {
+                x0 = x1;
+                x1 = (1 / n) * ((n - 1) * x0 + A / Math.Pow(x0, (int)n - 1));
+            }
+
+            return Math.Round(x1, CountOfMark(eps));
+        }
+    }
+}
