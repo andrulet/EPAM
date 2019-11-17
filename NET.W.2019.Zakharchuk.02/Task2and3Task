@@ -1,0 +1,58 @@
+using System;
+
+namespace Task2and3
+{
+    public class Task_2_and_3
+
+    {
+        /// <summary>
+        /// This method accepts a positive integer and returns the nearest largest integer,
+        /// consisting of digits of the original number, and - 1 (null), if there is no such number
+        /// exist, and retuns time taken to complete it
+        /// </summary>
+        /// <param name="number">a positive integer</param>
+        /// <param name="spendtime">time taken to complete it</param>
+        /// <returns>nearest largest integer,
+        /// consisting of digits of the original number, and retuns time taken to complete it</returns>
+        static int FindNextBiggerNumber(int number, out double spendtime)
+        {
+            var before = DateTime.UtcNow;
+            string s = Convert.ToString(number);
+            int numberOfDigit = s.Length, j;
+            char[] charOfNumber = new char[numberOfDigit];
+            for (int i = 0; i < numberOfDigit; i++) charOfNumber[i] = s[i];
+            for (j = numberOfDigit - 1; j > 0; j--)
+            {
+                if (charOfNumber[j] > charOfNumber[j - 1]) break;
+            }
+            if (j == 0)
+            {
+                spendtime = (DateTime.UtcNow - before).TotalMilliseconds;
+                return -1;
+            }
+            else
+            {
+                int x = j - 1, min = j;
+                if (j != numberOfDigit - 1)
+                {
+                    for (int i = j + 1; j < numberOfDigit; j++)
+                    {
+                        if (charOfNumber[i] > charOfNumber[x] && charOfNumber[i] < charOfNumber[min])
+                        {
+                            min = i;
+                        }
+                    }
+                }
+
+                char temp = charOfNumber[x];
+                charOfNumber[x] = charOfNumber[min];
+                charOfNumber[min] = temp;
+                if (j != numberOfDigit - 1) Array.Sort(charOfNumber, min, numberOfDigit - x - 1);
+            }
+            s = "";
+            foreach (char k in charOfNumber) s += k;
+            spendtime = (DateTime.UtcNow - before).TotalMilliseconds;
+            return Convert.ToInt32(s);
+        }
+    }
+}
