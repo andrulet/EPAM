@@ -12,7 +12,7 @@ namespace FindGCD
         /// <param name="array">Array of integers</param>
         /// <exception cref="ArgumentNullException">If array equals null</exception>
         /// <returnsNumber> GCD</returns>
-        public static int GetGcdByEuclideanAlgorithmFromIntegers(out Stopwatch timeSpend, params int[] array)
+        public static int GetGcd(out Stopwatch timeSpend, params int[] array)
         {
             timeSpend = new Stopwatch();
             timeSpend.Start();
@@ -21,7 +21,7 @@ namespace FindGCD
                 throw new ArgumentNullException();
             }
 
-            int numberGcd = GetGcdByEuclideanAlgorithmFromIntegers(array);
+            int numberGcd = GetGcd(array);
             timeSpend.Stop();            
             return numberGcd;
         }
@@ -32,11 +32,11 @@ namespace FindGCD
         /// <param name="array">Array of integers</param>
         /// <exception cref="ArgumentOutOfRangeException">If number of array more int.MaxValue or less int.MinValue</exception>
         /// <returnsNumber> GCD</returns>
-        public static int GetGcdByEuclideanAlgorithmFromIntegers(params int[] array)
+        public static int GetGcd(params int[] array)
         {
             for (int i = 0; i < array.Length - 1; i++)
             {
-                if (array[i] <= int.MinValue || array[i + 1] <= int.MinValue || array[i] >= int.MaxValue || array[i + 1] >= int.MaxValue)
+                if (array[i] <= int.MinValue || array[i + 1] <= int.MinValue || array[i] > int.MaxValue || array[i + 1] > int.MaxValue)
                 {
                     throw new ArgumentOutOfRangeException();
                 }
@@ -86,7 +86,7 @@ namespace FindGCD
         /// <param name="array">Array of integers</param>
         /// <exception cref="ArgumentNullException">If array equals null</exception>
         /// <returnsNumber GCD</returns>
-        public static int GetGcdByBinaryEuclideanAlgorithmFromIntegers(out Stopwatch timeSpend, params int[] array)
+        public static int GetGcdByBinary(out Stopwatch timeSpend, params int[] array)
         {
             timeSpend = new Stopwatch();
             timeSpend.Start();
@@ -95,7 +95,7 @@ namespace FindGCD
                 throw new ArgumentNullException();
             }
 
-            int numberGcd = GetGcdByBinaryEuclideanAlgorithmFromIntegers(array);
+            int numberGcd = GetGcdByBinary(array);
             timeSpend.Stop();
             return numberGcd;
         }
@@ -106,11 +106,11 @@ namespace FindGCD
         /// <param name="array">Array of integers</param>
         /// <exception cref="ArgumentOutOfRangeException">If number of array more int.MaxValue or less int.MinValue</exception>
         /// <returnsNumber> GCD</returns>
-        public static int GetGcdByBinaryEuclideanAlgorithmFromIntegers(params int[] array)
+        public static int GetGcdByBinary(params int[] array)
         {
             for (int i = 0; i < array.Length - 1; i++)
             {
-                if (array[i] == int.MinValue || array[i + 1] == int.MinValue)
+                if (array[i] <= int.MinValue || array[i + 1] <= int.MinValue || array[i] > int.MaxValue || array[i + 1] > int.MaxValue)
                 {
                     throw new ArgumentOutOfRangeException();
                 }
@@ -153,11 +153,11 @@ namespace FindGCD
                     {
                         if ((array[i + 1] & 1) != 1)
                         {
-                            return GetGcdByBinaryEuclideanAlgorithmFromIntegers(array[i] >> 1, array[i + 1] >> 1) << 1;
+                            return GetGcdByBinary(array[i] >> 1, array[i + 1] >> 1) << 1;
                         }
                         else
                         {
-                            return GetGcdByBinaryEuclideanAlgorithmFromIntegers(array[i] >> 1, array[i + 1]);
+                            return GetGcdByBinary(array[i] >> 1, array[i + 1]);
                         }
                     }
 
@@ -165,17 +165,17 @@ namespace FindGCD
                     {
                         if ((array[i + 1] & 1) != 1)
                         {
-                            return GetGcdByBinaryEuclideanAlgorithmFromIntegers(array[i], array[i + 1] >> 1);
+                            return GetGcdByBinary(array[i], array[i + 1] >> 1);
                         }
 
                         if ((array[i + 1] & 1) == 1 && array[i + 1] > array[i])
                         {
-                            return GetGcdByBinaryEuclideanAlgorithmFromIntegers((array[i + 1] - array[i]) >> 1, array[i]);
+                            return GetGcdByBinary((array[i + 1] - array[i]) >> 1, array[i]);
                         }
 
                         if ((array[i + 1] & 1) == 1 && array[i + 1] < array[i])
                         {
-                            return GetGcdByBinaryEuclideanAlgorithmFromIntegers((array[i] - array[i + 1]) >> 1, array[i + 1]);
+                            return GetGcdByBinary((array[i] - array[i + 1]) >> 1, array[i + 1]);
                         }
                     }
                 }
