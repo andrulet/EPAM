@@ -9,11 +9,25 @@ namespace DoubleToBinary
         /// </summary>
         /// <param name="number">Time for which the method is executed</param>        
         /// <return> String of binary code</returns>
-        public static string GetBinary(this double number)
+        public static unsafe string GetBinary(this double number)
         {
-            long numberInBinary = BitConverter.ToInt64(BitConverter.GetBytes(number), 0);
-            char sign = (number >= 0) ? '0' : '1';
-            return Convert.ToString(numberInBinary, 2).PadLeft(64, sign);
+            long* x = (long*)&number;
+            string s = "";
+            for (int i = 0; i < 63; i++)
+            {
+                if ((*x & 1) == 1)
+                {
+                    s = "1" + s;
+                    *x = *x >> 1;
+                }
+                else
+                {
+                    s = "0" + s;
+                    *x = *x >> 1;
+                }
+            }
+            s = ((number >= 0) ? '0' : '1') + s;
+            return s;
         }
     }
 }
