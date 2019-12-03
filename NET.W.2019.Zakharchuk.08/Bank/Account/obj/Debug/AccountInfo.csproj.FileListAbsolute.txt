@@ -1,0 +1,5 @@
+D:\Учеба\C#\EPAM\День 8\Bank\Account\bin\Debug\Account.dll
+D:\Учеба\C#\EPAM\День 8\Bank\Account\bin\Debug\Account.pdb
+D:\Учеба\C#\EPAM\День 8\Bank\Account\obj\Debug\AccountInfo.csproj.CoreCompileInputs.cache
+D:\Учеба\C#\EPAM\День 8\Bank\Account\obj\Debug\Account.dll
+D:\Учеба\C#\EPAM\День 8\Bank\Account\obj\Debug\Account.pdb

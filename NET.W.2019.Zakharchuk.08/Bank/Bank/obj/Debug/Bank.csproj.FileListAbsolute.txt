@@ -1,0 +1,14 @@
+D:\Учеба\C#\EPAM\День 8\Bank\Bank\bin\Debug\Bank.exe.config
+D:\Учеба\C#\EPAM\День 8\Bank\Bank\bin\Debug\Bank.exe
+D:\Учеба\C#\EPAM\День 8\Bank\Bank\bin\Debug\Bank.pdb
+D:\Учеба\C#\EPAM\День 8\Bank\Bank\bin\Debug\Account.dll
+D:\Учеба\C#\EPAM\День 8\Bank\Bank\bin\Debug\ServiceAccount.dll
+D:\Учеба\C#\EPAM\День 8\Bank\Bank\bin\Debug\StorageAccount.dll
+D:\Учеба\C#\EPAM\День 8\Bank\Bank\bin\Debug\Account.pdb
+D:\Учеба\C#\EPAM\День 8\Bank\Bank\bin\Debug\ServiceAccount.pdb
+D:\Учеба\C#\EPAM\День 8\Bank\Bank\bin\Debug\StorageAccount.pdb
+D:\Учеба\C#\EPAM\День 8\Bank\Bank\obj\Debug\Bank.csprojAssemblyReference.cache
+D:\Учеба\C#\EPAM\День 8\Bank\Bank\obj\Debug\Bank.csproj.CoreCompileInputs.cache
+D:\Учеба\C#\EPAM\День 8\Bank\Bank\obj\Debug\Bank.csproj.CopyComplete
+D:\Учеба\C#\EPAM\День 8\Bank\Bank\obj\Debug\Bank.exe
+D:\Учеба\C#\EPAM\День 8\Bank\Bank\obj\Debug\Bank.pdb

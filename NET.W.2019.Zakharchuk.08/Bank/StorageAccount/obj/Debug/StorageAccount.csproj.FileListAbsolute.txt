@@ -1,0 +1,9 @@
+D:\Учеба\C#\EPAM\День 8\Bank\StorageAccount\bin\Debug\StorageAccount.dll
+D:\Учеба\C#\EPAM\День 8\Bank\StorageAccount\bin\Debug\StorageAccount.pdb
+D:\Учеба\C#\EPAM\День 8\Bank\StorageAccount\bin\Debug\Account.dll
+D:\Учеба\C#\EPAM\День 8\Bank\StorageAccount\bin\Debug\Account.pdb
+D:\Учеба\C#\EPAM\День 8\Bank\StorageAccount\obj\Debug\StorageAccount.csprojAssemblyReference.cache
+D:\Учеба\C#\EPAM\День 8\Bank\StorageAccount\obj\Debug\StorageAccount.csproj.CoreCompileInputs.cache
+D:\Учеба\C#\EPAM\День 8\Bank\StorageAccount\obj\Debug\StorageAccount.csproj.CopyComplete
+D:\Учеба\C#\EPAM\День 8\Bank\StorageAccount\obj\Debug\StorageAccount.dll
+D:\Учеба\C#\EPAM\День 8\Bank\StorageAccount\obj\Debug\StorageAccount.pdb
