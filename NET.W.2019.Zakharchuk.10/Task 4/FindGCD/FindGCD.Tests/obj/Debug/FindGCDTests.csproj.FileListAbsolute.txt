@@ -1,0 +1,16 @@
+D:\Учеба\C#\EPAM\День 3\FindGCD\FindGCD.Tests\obj\Debug\FindGCDTests.csprojAssemblyReference.cache
+D:\Учеба\C#\EPAM\День 3\FindGCD\FindGCD.Tests\obj\Debug\FindGCDTests.csproj.CoreCompileInputs.cache
+D:\Учеба\C#\EPAM\День 3\FindGCD\FindGCD.Tests\obj\Debug\FindGCD.Tests.dll
+D:\Учеба\C#\EPAM\День 3\FindGCD\FindGCD.Tests\obj\Debug\FindGCD.Tests.pdb
+D:\Учеба\C#\EPAM\День 3\FindGCD\FindGCD.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Учеба\C#\EPAM\День 3\FindGCD\FindGCD.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Учеба\C#\EPAM\День 3\FindGCD\FindGCD.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Учеба\C#\EPAM\День 3\FindGCD\FindGCD.Tests\bin\Debug\FindGCD.Tests.dll
+D:\Учеба\C#\EPAM\День 3\FindGCD\FindGCD.Tests\bin\Debug\FindGCD.Tests.pdb
+D:\Учеба\C#\EPAM\День 3\FindGCD\FindGCD.Tests\bin\Debug\FindGCD.dll
+D:\Учеба\C#\EPAM\День 3\FindGCD\FindGCD.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\Учеба\C#\EPAM\День 3\FindGCD\FindGCD.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\Учеба\C#\EPAM\День 3\FindGCD\FindGCD.Tests\bin\Debug\FindGCD.pdb
+D:\Учеба\C#\EPAM\День 3\FindGCD\FindGCD.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\Учеба\C#\EPAM\День 3\FindGCD\FindGCD.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\Учеба\C#\EPAM\День 3\FindGCD\FindGCD.Tests\obj\Debug\FindGCDTests.csproj.CopyComplete

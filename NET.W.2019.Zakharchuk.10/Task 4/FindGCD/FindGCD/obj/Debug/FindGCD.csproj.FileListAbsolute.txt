@@ -1,0 +1,18 @@
+D:\Учеба\C#\EPAM\День 3\FindGCD\FindGCD\bin\Debug\FindGCD.dll
+D:\Учеба\C#\EPAM\День 3\FindGCD\FindGCD\bin\Debug\FindGCD.pdb
+D:\Учеба\C#\EPAM\День 3\FindGCD\FindGCD\obj\Debug\FindGCD.csproj.CoreCompileInputs.cache
+D:\Учеба\C#\EPAM\День 3\FindGCD\FindGCD\obj\Debug\FindGCD.dll
+D:\Учеба\C#\EPAM\День 3\FindGCD\FindGCD\obj\Debug\FindGCD.pdb
+D:\Учеба\C#\EPAM\День 3\FindGCD\FindGCD\obj\Debug\FindGCD.csprojAssemblyReference.cache
+D:\Учеба\C#\EPAM\День 3\FindGCD\FindGCD\bin\Debug\StyleCop.dll
+D:\Учеба\C#\EPAM\День 3\FindGCD\FindGCD\bin\Debug\StyleCop.xml
+D:\Учеба\C#\EPAM\День 3\FindGCD\FindGCD\obj\Debug\FindGCD.csproj.CopyComplete
+D:\Учеба\C#\EPAM\День 10 - 11\FindGCD\FindGCD\bin\Debug\FindGCD.dll
+D:\Учеба\C#\EPAM\День 10 - 11\FindGCD\FindGCD\bin\Debug\FindGCD.pdb
+D:\Учеба\C#\EPAM\День 10 - 11\FindGCD\FindGCD\bin\Debug\StyleCop.dll
+D:\Учеба\C#\EPAM\День 10 - 11\FindGCD\FindGCD\bin\Debug\StyleCop.xml
+D:\Учеба\C#\EPAM\День 10 - 11\FindGCD\FindGCD\obj\Debug\FindGCD.csprojAssemblyReference.cache
+D:\Учеба\C#\EPAM\День 10 - 11\FindGCD\FindGCD\obj\Debug\FindGCD.csproj.CoreCompileInputs.cache
+D:\Учеба\C#\EPAM\День 10 - 11\FindGCD\FindGCD\obj\Debug\FindGCD.csproj.CopyComplete
+D:\Учеба\C#\EPAM\День 10 - 11\FindGCD\FindGCD\obj\Debug\FindGCD.dll
+D:\Учеба\C#\EPAM\День 10 - 11\FindGCD\FindGCD\obj\Debug\FindGCD.pdb

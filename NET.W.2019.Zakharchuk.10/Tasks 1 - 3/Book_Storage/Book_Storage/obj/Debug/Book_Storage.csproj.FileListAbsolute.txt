@@ -1,0 +1,14 @@
+D:\Учеба\C#\EPAM\День 8\Book_Storage\Book_Storage\bin\Debug\Book_Storage.exe.config
+D:\Учеба\C#\EPAM\День 8\Book_Storage\Book_Storage\bin\Debug\Book_Storage.exe
+D:\Учеба\C#\EPAM\День 8\Book_Storage\Book_Storage\bin\Debug\Book_Storage.pdb
+D:\Учеба\C#\EPAM\День 8\Book_Storage\Book_Storage\obj\Debug\Book_Storage.csprojAssemblyReference.cache
+D:\Учеба\C#\EPAM\День 8\Book_Storage\Book_Storage\obj\Debug\Book_Storage.csproj.CoreCompileInputs.cache
+D:\Учеба\C#\EPAM\День 8\Book_Storage\Book_Storage\obj\Debug\Book_Storage.exe
+D:\Учеба\C#\EPAM\День 8\Book_Storage\Book_Storage\obj\Debug\Book_Storage.pdb
+d:\Учеба\C#\EPAM\День 10 - 11\Book_Storage\Book_Storage\bin\Debug\Book_Storage.exe.config
+d:\Учеба\C#\EPAM\День 10 - 11\Book_Storage\Book_Storage\bin\Debug\Book_Storage.exe
+d:\Учеба\C#\EPAM\День 10 - 11\Book_Storage\Book_Storage\bin\Debug\Book_Storage.pdb
+d:\Учеба\C#\EPAM\День 10 - 11\Book_Storage\Book_Storage\obj\Debug\Book_Storage.csprojAssemblyReference.cache
+d:\Учеба\C#\EPAM\День 10 - 11\Book_Storage\Book_Storage\obj\Debug\Book_Storage.csproj.CoreCompileInputs.cache
+d:\Учеба\C#\EPAM\День 10 - 11\Book_Storage\Book_Storage\obj\Debug\Book_Storage.exe
+d:\Учеба\C#\EPAM\День 10 - 11\Book_Storage\Book_Storage\obj\Debug\Book_Storage.pdb
