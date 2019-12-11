@@ -1,0 +1,34 @@
+BookListService..ctor => BookListService.AddBook => ServiceLogger.Debug Book clr via c#. программирование на платформе microsoft .net framework 4.5 на языке c# successfully added.
+BookListService..ctor => BookListService.AddBook => ServiceLogger.Debug Book Самый лучший самоучитель successfully added.
+BookListService..ctor => BookListService.AddBook => ServiceLogger.Debug Book CLR via C#. Программирование на платформе Microsoft .NET Framework 4.5 на языке C# successfully added.
+BookListService..ctor => BookListService.AddBook => ServiceLogger.Debug Book CLR via C#. successfully added.
+Program.Main => BookListService.AddBook => ServiceLogger.Debug Book C# 7.0. Карманный справочник successfully added.
+Program.Main => BookListService.SaveToStorage => ServiceLogger.Debug List of books saved to the storage
+BookListService.LoadFromStorage => BookListService.AddBook => ServiceLogger.Debug Book Самый лучший самоучитель successfully added.
+BookListService.LoadFromStorage => BookListService.AddBook => ServiceLogger.Debug Book C# 7.0. Карманный справочник successfully added.
+BookListService.LoadFromStorage => BookListService.AddBook => ServiceLogger.Debug Book clr via c#. программирование на платформе microsoft .net framework 4.5 на языке c# successfully added.
+BookListService.LoadFromStorage => BookListService.AddBook => ServiceLogger.Debug Book CLR via C#. Программирование на платформе Microsoft .NET Framework 4.5 на языке C# successfully added.
+BookListService.LoadFromStorage => BookListService.AddBook => ServiceLogger.Debug Book CLR via C#. successfully added.
+Program.Main => BookListService.LoadFromStorage => ServiceLogger.Debug List of books loaded from storage
+BookListService..ctor => BookListService.AddBook => ServiceLogger.Debug Book clr via c#. программирование на платформе microsoft .net framework 4.5 на языке c# successfully added.
+BookListService..ctor => BookListService.AddBook => ServiceLogger.Debug Book Самый лучший самоучитель successfully added.
+BookListService..ctor => BookListService.AddBook => ServiceLogger.Debug Book CLR via C#. Программирование на платформе Microsoft .NET Framework 4.5 на языке C# successfully added.
+BookListService..ctor => BookListService.AddBook => ServiceLogger.Debug Book CLR via C#. successfully added.
+Program.Main => BookListService.AddBook => ServiceLogger.Debug Book C# 7.0. Карманный справочник successfully added.
+Program.Main => BookListService.SaveToStorage => ServiceLogger.Debug List of books saved to the storage
+BookListService.LoadFromStorage => BookListService.AddBook => ServiceLogger.Debug Book Самый лучший самоучитель successfully added.
+BookListService.LoadFromStorage => BookListService.AddBook => ServiceLogger.Debug Book C# 7.0. Карманный справочник successfully added.
+BookListService.LoadFromStorage => BookListService.AddBook => ServiceLogger.Debug Book clr via c#. программирование на платформе microsoft .net framework 4.5 на языке c# successfully added.
+BookListService.LoadFromStorage => BookListService.AddBook => ServiceLogger.Debug Book CLR via C#. Программирование на платформе Microsoft .NET Framework 4.5 на языке C# successfully added.
+BookListService.LoadFromStorage => BookListService.AddBook => ServiceLogger.Debug Book CLR via C#. successfully added.
+Program.Main => BookListService.LoadFromStorage => ServiceLogger.Debug List of books loaded from storage
+Program.Main => BookListService.SaveToStorage => ServiceLogger.Debug List of books saved to the storage
+Program.Main => BookListService.LoadFromStorage => ServiceLogger.Debug List of books loaded from storage
+Program.Main => BookListService.SaveToStorage => ServiceLogger.Debug List of books saved to the storage
+Program.Main => BookListService.LoadFromStorage => ServiceLogger.Debug List of books loaded from storage
+Program.Main => BookListService.SaveToStorage => ServiceLogger.Debug List of books saved to the storage
+Program.Main => BookListService.SaveToStorage => ServiceLogger.Debug List of books saved to the storage
+Program.Main => BookListService.SaveToStorage => ServiceLogger.Debug List of books saved to the storage
+Program.Main => BookListService.SaveToStorage => ServiceLogger.Debug List of books saved to the storage
+Program.Main => BookListService.SaveToStorage => ServiceLogger.Debug List of books saved to the storage
+Program.Main => BookListService.SaveToStorage => ServiceLogger.Debug List of books saved to the storage
