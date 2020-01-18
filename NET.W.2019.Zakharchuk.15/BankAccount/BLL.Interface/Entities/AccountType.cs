@@ -5,7 +5,7 @@ namespace BLL.Interface.Entities
     public enum AccountType
     {
         Base,
-        Cold,
+        Gold,
         Platinum
     }   
 }

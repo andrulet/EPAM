@@ -7,11 +7,9 @@ namespace DAL.Interface.Interfaces
     public interface IRepository
     {
         void AddAccount(DalAccount account);
-
         void RemoveAccount(DalAccount account);
-
-        IEnumerable<DalAccount> GetAccounts();
-
+        List<DalAccount> GetAccounts();
+        DalAccount GetAccount(int id);
         void UpdateAccount(DalAccount account);
     }
 }

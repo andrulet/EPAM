@@ -8,15 +8,15 @@ namespace DAL.Interface.DTO
 {
     public class DalAccount
     {
-        public string AccountType { get; set; }
+        public int Id { get; set; }
 
-        public string NumberScore { get; set; }
+        public string AccountType { get; set; }
 
         public string FirstName { get; set; }
 
-        public string LastName { get; set; }
+        public string Surname { get; set; }
 
-        public decimal Amount { get; set; }       
+        public decimal Score { get; set; }       
         
         public int BonusPoint { get; set; }
     }

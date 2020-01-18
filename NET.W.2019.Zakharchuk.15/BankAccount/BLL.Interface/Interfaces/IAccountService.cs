@@ -1,24 +1,17 @@
 ﻿using System;
+using System.Collections.Generic;
 using BLL.Interface.Entities;
+using BLL.Interface.Interfaces;
+using DAL.Interface.Interfaces;
 
 namespace BLL.Interface.Interfaces
 {
     public interface IAccountService
     {
-        Account CreateAccount(AccountType account, string firstName, string lastName, decimal amount);
-
-        void AddMoney(Account account, decimal money);
-
-        void AddMoney(string account, decimal money);
-
-        void WithdrawMoney(Account account, decimal money);
-
-        void WithdrawMoney(string accountId, decimal money);
-
+        Account OpenAccount(string owner, AccountType accountType, IAccountGetId accountGetId);
+        void DepositMoney(int id, decimal money);      
+        void WithdrawMoney(int id, decimal money);
         void CloseAccount(Account account);
-
-        void CloseAccout(string accountId);
-
-        string GetAccount(string accountId);
+        IEnumerable<Account> GetAccounts();
     }
 }
