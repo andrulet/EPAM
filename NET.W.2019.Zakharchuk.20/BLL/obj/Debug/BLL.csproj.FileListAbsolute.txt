@@ -1,0 +1,50 @@
+C:\Users\MIB\Desktop\AccountSystemApplication\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\MIB\Desktop\AccountSystemApplication\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\MIB\Desktop\AccountSystemApplication\BLL\bin\Debug\BLL.dll
+C:\Users\MIB\Desktop\AccountSystemApplication\BLL\bin\Debug\BLL.pdb
+C:\Users\MIB\Desktop\AccountSystemApplication\BLL\bin\Debug\BLL.Interface.dll
+C:\Users\MIB\Desktop\AccountSystemApplication\BLL\bin\Debug\DAL.Interface.dll
+C:\Users\MIB\Desktop\AccountSystemApplication\BLL\bin\Debug\BLL.Interface.pdb
+C:\Users\MIB\Desktop\AccountSystemApplication\BLL\bin\Debug\DAL.Interface.pdb
+C:\Users\MIB\Desktop\AccountSystemApplication\BLL\obj\Debug\BLL.dll
+C:\Users\MIB\Desktop\AccountSystemApplication\BLL\obj\Debug\BLL.pdb
+D:\Учеба\C#\EPAM\День 15\Task\BankAccount\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+D:\Учеба\C#\EPAM\День 15\Task\BankAccount\BLL\bin\Debug\BLL.dll
+D:\Учеба\C#\EPAM\День 15\Task\BankAccount\BLL\bin\Debug\BLL.pdb
+D:\Учеба\C#\EPAM\День 15\Task\BankAccount\BLL\bin\Debug\BLL.Interface.dll
+D:\Учеба\C#\EPAM\День 15\Task\BankAccount\BLL\bin\Debug\Castle.Core.dll
+D:\Учеба\C#\EPAM\День 15\Task\BankAccount\BLL\bin\Debug\DAL.Interface.dll
+D:\Учеба\C#\EPAM\День 15\Task\BankAccount\BLL\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Учеба\C#\EPAM\День 15\Task\BankAccount\BLL\bin\Debug\Ninject.dll
+D:\Учеба\C#\EPAM\День 15\Task\BankAccount\BLL\bin\Debug\Ninject.Web.Common.dll
+D:\Учеба\C#\EPAM\День 15\Task\BankAccount\BLL\bin\Debug\Ninject.Web.Common.WebHost.dll
+D:\Учеба\C#\EPAM\День 15\Task\BankAccount\BLL\bin\Debug\WebActivatorEx.dll
+D:\Учеба\C#\EPAM\День 15\Task\BankAccount\BLL\bin\Debug\BLL.Interface.pdb
+D:\Учеба\C#\EPAM\День 15\Task\BankAccount\BLL\bin\Debug\DAL.Interface.pdb
+D:\Учеба\C#\EPAM\День 15\Task\BankAccount\BLL\bin\Debug\Castle.Core.xml
+D:\Учеба\C#\EPAM\День 15\Task\BankAccount\BLL\bin\Debug\Ninject.xml
+D:\Учеба\C#\EPAM\День 15\Task\BankAccount\BLL\bin\Debug\Ninject.Web.Common.xml
+D:\Учеба\C#\EPAM\День 15\Task\BankAccount\BLL\bin\Debug\Ninject.Web.Common.WebHost.xml
+D:\Учеба\C#\EPAM\День 15\Task\BankAccount\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\Учеба\C#\EPAM\День 15\Task\BankAccount\BLL\obj\Debug\BLL.dll
+D:\Учеба\C#\EPAM\День 15\Task\BankAccount\BLL\obj\Debug\BLL.pdb
+d:\Учеба\C#\EPAM\День 20\BankAccount\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+d:\Учеба\C#\EPAM\День 20\BankAccount\BLL\obj\Debug\BLL.dll
+d:\Учеба\C#\EPAM\День 20\BankAccount\BLL\obj\Debug\BLL.pdb
+d:\Учеба\C#\EPAM\День 20\BankAccount\BLL\bin\Debug\BLL.dll
+d:\Учеба\C#\EPAM\День 20\BankAccount\BLL\bin\Debug\BLL.pdb
+d:\Учеба\C#\EPAM\День 20\BankAccount\BLL\bin\Debug\BLL.Interface.dll
+d:\Учеба\C#\EPAM\День 20\BankAccount\BLL\bin\Debug\Castle.Core.dll
+d:\Учеба\C#\EPAM\День 20\BankAccount\BLL\bin\Debug\DAL.Interface.dll
+d:\Учеба\C#\EPAM\День 20\BankAccount\BLL\bin\Debug\Microsoft.Web.Infrastructure.dll
+d:\Учеба\C#\EPAM\День 20\BankAccount\BLL\bin\Debug\Ninject.dll
+d:\Учеба\C#\EPAM\День 20\BankAccount\BLL\bin\Debug\Ninject.Web.Common.dll
+d:\Учеба\C#\EPAM\День 20\BankAccount\BLL\bin\Debug\Ninject.Web.Common.WebHost.dll
+d:\Учеба\C#\EPAM\День 20\BankAccount\BLL\bin\Debug\WebActivatorEx.dll
+d:\Учеба\C#\EPAM\День 20\BankAccount\BLL\bin\Debug\BLL.Interface.pdb
+d:\Учеба\C#\EPAM\День 20\BankAccount\BLL\bin\Debug\DAL.Interface.pdb
+d:\Учеба\C#\EPAM\День 20\BankAccount\BLL\bin\Debug\Castle.Core.xml
+d:\Учеба\C#\EPAM\День 20\BankAccount\BLL\bin\Debug\Ninject.xml
+d:\Учеба\C#\EPAM\День 20\BankAccount\BLL\bin\Debug\Ninject.Web.Common.xml
+d:\Учеба\C#\EPAM\День 20\BankAccount\BLL\bin\Debug\Ninject.Web.Common.WebHost.xml
+d:\Учеба\C#\EPAM\День 20\BankAccount\BLL\obj\Debug\BLL.csproj.CopyComplete

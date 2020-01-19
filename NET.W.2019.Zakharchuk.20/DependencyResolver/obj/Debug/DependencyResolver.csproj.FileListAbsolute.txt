@@ -1,0 +1,47 @@
+C:\Users\MIB\Desktop\AccountSystemApplication\DependencyResolver\bin\Debug\DependencyResolver.dll
+C:\Users\MIB\Desktop\AccountSystemApplication\DependencyResolver\bin\Debug\DependencyResolver.pdb
+C:\Users\MIB\Desktop\AccountSystemApplication\DependencyResolver\bin\Debug\BLL.dll
+C:\Users\MIB\Desktop\AccountSystemApplication\DependencyResolver\bin\Debug\BLL.Interface.dll
+C:\Users\MIB\Desktop\AccountSystemApplication\DependencyResolver\bin\Debug\DAL.dll
+C:\Users\MIB\Desktop\AccountSystemApplication\DependencyResolver\bin\Debug\DAL.Interface.dll
+C:\Users\MIB\Desktop\AccountSystemApplication\DependencyResolver\bin\Debug\Ninject.dll
+C:\Users\MIB\Desktop\AccountSystemApplication\DependencyResolver\bin\Debug\BLL.Interface.pdb
+C:\Users\MIB\Desktop\AccountSystemApplication\DependencyResolver\bin\Debug\BLL.pdb
+C:\Users\MIB\Desktop\AccountSystemApplication\DependencyResolver\bin\Debug\DAL.Interface.pdb
+C:\Users\MIB\Desktop\AccountSystemApplication\DependencyResolver\bin\Debug\DAL.pdb
+C:\Users\MIB\Desktop\AccountSystemApplication\DependencyResolver\bin\Debug\Ninject.xml
+C:\Users\MIB\Desktop\AccountSystemApplication\DependencyResolver\obj\Debug\DependencyResolver.csprojResolveAssemblyReference.cache
+C:\Users\MIB\Desktop\AccountSystemApplication\DependencyResolver\obj\Debug\DependencyResolver.csproj.CoreCompileInputs.cache
+C:\Users\MIB\Desktop\AccountSystemApplication\DependencyResolver\obj\Debug\DependencyResolver.dll
+C:\Users\MIB\Desktop\AccountSystemApplication\DependencyResolver\obj\Debug\DependencyResolver.pdb
+C:\Users\MIB\Desktop\AccountSystemApplication\DependencyResolver\bin\Debug\DAL.Fake.dll
+C:\Users\MIB\Desktop\AccountSystemApplication\DependencyResolver\bin\Debug\DAL.Fake.pdb
+D:\Учеба\C#\EPAM\День 15\Task\BankAccount\DependencyResolver\bin\Debug\DependencyResolver.dll
+D:\Учеба\C#\EPAM\День 15\Task\BankAccount\DependencyResolver\bin\Debug\DependencyResolver.pdb
+D:\Учеба\C#\EPAM\День 15\Task\BankAccount\DependencyResolver\bin\Debug\BLL.dll
+D:\Учеба\C#\EPAM\День 15\Task\BankAccount\DependencyResolver\bin\Debug\BLL.Interface.dll
+D:\Учеба\C#\EPAM\День 15\Task\BankAccount\DependencyResolver\bin\Debug\Castle.Core.dll
+D:\Учеба\C#\EPAM\День 15\Task\BankAccount\DependencyResolver\bin\Debug\DAL.dll
+D:\Учеба\C#\EPAM\День 15\Task\BankAccount\DependencyResolver\bin\Debug\DAL.Fake.dll
+D:\Учеба\C#\EPAM\День 15\Task\BankAccount\DependencyResolver\bin\Debug\DAL.Interface.dll
+D:\Учеба\C#\EPAM\День 15\Task\BankAccount\DependencyResolver\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Учеба\C#\EPAM\День 15\Task\BankAccount\DependencyResolver\bin\Debug\Ninject.dll
+D:\Учеба\C#\EPAM\День 15\Task\BankAccount\DependencyResolver\bin\Debug\Ninject.Web.Common.dll
+D:\Учеба\C#\EPAM\День 15\Task\BankAccount\DependencyResolver\bin\Debug\Ninject.Web.Common.WebHost.dll
+D:\Учеба\C#\EPAM\День 15\Task\BankAccount\DependencyResolver\bin\Debug\WebActivatorEx.dll
+D:\Учеба\C#\EPAM\День 15\Task\BankAccount\DependencyResolver\bin\Debug\BLL.Interface.pdb
+D:\Учеба\C#\EPAM\День 15\Task\BankAccount\DependencyResolver\bin\Debug\BLL.pdb
+D:\Учеба\C#\EPAM\День 15\Task\BankAccount\DependencyResolver\bin\Debug\DAL.Fake.pdb
+D:\Учеба\C#\EPAM\День 15\Task\BankAccount\DependencyResolver\bin\Debug\DAL.Interface.pdb
+D:\Учеба\C#\EPAM\День 15\Task\BankAccount\DependencyResolver\bin\Debug\DAL.pdb
+D:\Учеба\C#\EPAM\День 15\Task\BankAccount\DependencyResolver\bin\Debug\Castle.Core.xml
+D:\Учеба\C#\EPAM\День 15\Task\BankAccount\DependencyResolver\bin\Debug\Ninject.xml
+D:\Учеба\C#\EPAM\День 15\Task\BankAccount\DependencyResolver\bin\Debug\Ninject.Web.Common.xml
+D:\Учеба\C#\EPAM\День 15\Task\BankAccount\DependencyResolver\bin\Debug\Ninject.Web.Common.WebHost.xml
+D:\Учеба\C#\EPAM\День 15\Task\BankAccount\DependencyResolver\obj\Debug\DependencyResolver.csprojAssemblyReference.cache
+D:\Учеба\C#\EPAM\День 15\Task\BankAccount\DependencyResolver\obj\Debug\DependencyResolver.csproj.CopyComplete
+D:\Учеба\C#\EPAM\День 15\Task\BankAccount\DependencyResolver\obj\Debug\DependencyResolver.dll
+D:\Учеба\C#\EPAM\День 15\Task\BankAccount\DependencyResolver\obj\Debug\DependencyResolver.pdb
+d:\Учеба\C#\EPAM\День 20\BankAccount\DependencyResolver\obj\Debug\DependencyResolver.csprojAssemblyReference.cache
+d:\Учеба\C#\EPAM\День 20\BankAccount\DependencyResolver\obj\Debug\DependencyResolver.dll
+d:\Учеба\C#\EPAM\День 20\BankAccount\DependencyResolver\obj\Debug\DependencyResolver.pdb
